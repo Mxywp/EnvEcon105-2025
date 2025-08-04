@@ -17,7 +17,6 @@ x = np.linspace(0, 8, 16)
 y1 = 3 + 4*x/8 + prng.uniform(0.0, 0.5, len(x))
 y2 = 1 + 2*x/8 + prng.uniform(0.0, 0.5, len(x))
 
-import matplotlib
 import matplotlib.pyplot as plt
 # usual code for plot
 fig, ax = plt.subplots()
