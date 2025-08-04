@@ -1,4 +1,3 @@
-pip install matplotlib.pyplot
 import streamlit as st
 
 st.title("My first dashboard")
